@@ -1,6 +1,6 @@
 # Data-Science-Internship-Projects
 ## 1. Spatial Data Science For Covid-19 Disease Prediction [[Link](https://github.com/zarrar1607/Data-Science-Internship-Projects/tree/main/Spatial%20Data%20Science%20For%20Covid-19%20Disease%20Prediction)]
-### Filename: [Spatial-Data-Science-For-Covid-19-Disease-Prediction.ipyb](https://github.com/zarrar1607/Data-Science-Internship-Projects/blob/main/Spatial%20Data%20Science%20For%20Covid-19%20Disease%20Prediction/Spatial-Data-Science-For-Covid-19-Disease-Prediction.ipynb)
+### Filename: [Spatial-Data-Science-For-Covid-19-Disease-Prediction.ipynb](https://github.com/zarrar1607/Data-Science-Internship-Projects/blob/main/Spatial%20Data%20Science%20For%20Covid-19%20Disease%20Prediction/Spatial-Data-Science-For-Covid-19-Disease-Prediction.ipynb)
 ### Data Set Preview: [[Link](https://github.com/zarrar1607/Data-Science-Internship-Projects/blob/main/Spatial%20Data%20Science%20For%20Covid-19%20Disease%20Prediction/Covid-19_Dataset.csv)]
 | id  | case_in_country | reporting date | summary                                                                                                         | location  | country   | gender | age  | symptom_onset | If_onset_approximated | hosp_visit_date | exposure_start | exposure_end | visiting Wuhan | from Wuhan | death | recovered | symptom | source        | link                                                                                                                           |
 |-----|-----------------|----------------|-----------------------------------------------------------------------------------------------------------------|-----------|-----------|--------|------|---------------|-----------------------|-----------------|----------------|--------------|----------------|------------|-------|-----------|---------|---------------|--------------------------------------------------------------------------------------------------------------------------------|
@@ -52,7 +52,53 @@
 
 <!-------------------------------------------------------------------------------------------------------------->
 
+## 4. Home Loan Prediction Using Decision Tree Classifier [[Link](https://github.com/zarrar1607/Data-Science-Internship-Projects/tree/main/Home%20Loan%20Prediction%20Using%20Decision%20Tree%20Classifier)]
+### Filename: [Home loan Prediction - decision Tree Classifier.ipynb](https://github.com/zarrar1607/Data-Science-Internship-Projects/blob/main/Home%20Loan%20Prediction%20Using%20Decision%20Tree%20Classifier/Home%20loan%20Prediction%20-%20decision%20Tree%20Classifier.ipynb)
+### Data Set Preview: [[Link](https://github.com/zarrar1607/Data-Science-Internship-Projects/blob/main/Home%20Loan%20Prediction%20Using%20Decision%20Tree%20Classifier/Home_loan_train.csv)]
+| Loan_ID  | Gender | Married | Dependents | Education | Self_Employed | ApplicantIncome | CoapplicantIncome | LoanAmount | Loan_Amount_Term | Credit_History | Property_Area | Loan_Status |
+|----------|--------|---------|------------|-----------|---------------|-----------------|-------------------|------------|------------------|----------------|---------------|-------------|
+| LP001002 | Male   | No      | 0          | Graduate  | No            | 5849            | 0                 |            | 360              | 1              | Urban         | Y           |
+| LP001003 | Male   | Yes     | 1          | Graduate  | No            | 4583            | 1508              | 128        | 360              | 1              | Rural         | N           |
+### Analysis:
+![image](https://user-images.githubusercontent.com/61513813/158439409-ccf75eed-158d-4aca-93db-386b510f74c9.png)
+![image](https://user-images.githubusercontent.com/61513813/158439424-1725bfcf-0bae-43a8-b4db-c0e0c5b58f33.png)
+![image](https://user-images.githubusercontent.com/61513813/158439443-2d3c8918-9f1e-4132-bbd5-f95d907c526e.png)
+![image](https://user-images.githubusercontent.com/61513813/158439452-9aea4ba8-6978-4214-9631-e43f72b14325.png)
+![image](https://user-images.githubusercontent.com/61513813/158439474-6f20bfe4-5d0e-4e18-a906-1cdaa8b537db.png)
+![image](https://user-images.githubusercontent.com/61513813/158439499-cebed266-0a99-476b-9310-954f5fb268d8.png)
+![image](https://user-images.githubusercontent.com/61513813/158439527-d9cd8a99-f8fa-4254-8150-1a6255d51e67.png)
+![image](https://user-images.githubusercontent.com/61513813/158439547-f91c7bf0-ae34-4997-a56e-b1056806cc10.png)
+![image](https://user-images.githubusercontent.com/61513813/158439645-df6a59cf-3c24-42ad-93b5-146dc992d900.png)
+![image](https://user-images.githubusercontent.com/61513813/158439578-7775ea0f-4bf9-46e3-9848-7451026800db.png)
+![image](https://user-images.githubusercontent.com/61513813/158439691-6243c886-2d82-4cc9-9f13-73f8a8485ce4.png)
+![image](https://user-images.githubusercontent.com/61513813/158439703-d6d1aca4-c044-40d8-b460-9281aabaa935.png)
+ ![image](https://user-images.githubusercontent.com/61513813/158439767-ac41c118-3d1a-49cd-ae20-94745107684f.png)
+![image](https://user-images.githubusercontent.com/61513813/158439786-046c3737-907c-4f07-aac8-3ce7ca0b0326.png)
+![image](https://user-images.githubusercontent.com/61513813/158439797-18551ef7-cc1e-48f8-a6cc-090f088e044e.png)
+![image](https://user-images.githubusercontent.com/61513813/158439916-12a8754a-9780-4ee6-83da-954a3147f92b.png)
+![image](https://user-images.githubusercontent.com/61513813/158439937-4e52b570-380f-4411-a62b-31759a253078.png)
+![image](https://user-images.githubusercontent.com/61513813/158439958-6e0b1807-a231-4cf3-a9a3-27e891b2dc33.png)
+![image](https://user-images.githubusercontent.com/61513813/158439971-507465c2-cb18-4c2e-8b13-d18733ada560.png)
+![image](https://user-images.githubusercontent.com/61513813/158439992-3f420c51-68b9-4771-bed9-418b17e70af0.png)
+![image](https://user-images.githubusercontent.com/61513813/158440147-bb1a53d5-d4a4-455a-8e5b-edfa25632a28.png)
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+
 ## x. Name [[Link](#)]
-### Filename: [Name.ipyb](#)
+### Filename: [Name.ipynb](#)
 ### Data Set Preview: [[Link](#)]
+### Analysis:
+
+<!-------------------------------------------------------------------------------------------------------------->
+
+## 9. Name [[Customer Segmentation Using K-Means Clustering](https://github.com/zarrar1607/Data-Science-Internship-Projects/tree/main/Customer%20Segmentation%20Using%20K-Means%20Clustering)]
+### Filename: [Customer segmentation.ipynb](https://github.com/zarrar1607/Data-Science-Internship-Projects/blob/main/Customer%20Segmentation%20Using%20K-Means%20Clustering/Customer%20segmentation.ipynb)
+### Data Set Preview: [[Link](https://www.kaggle.com/nathaniel/uci-online-retail-ii-data-set/download)]
+| Invoice | StockCode | Description                         | Quantity | InvoiceDate  | Price | Customer ID | Country        |
+|---------|-----------|-------------------------------------|----------|--------------|-------|-------------|----------------|
+| 489434  | 85048     | 15CM CHRISTMAS GLASS BALL 20 LIGHTS | 12       | 12/1/09 7:45 | 6.95  | 13085       | United Kingdom |
+| 489434  | 79323P    | PINK CHERRY LIGHTS                  | 12       | 12/1/09 7:45 | 6.75  | 13085       | United Kingdom |
+| 489434  | 79323W    |  WHITE CHERRY LIGHTS                | 12       | 12/1/09 7:45 | 6.75  | 13085       | United Kingdom |
+| 489434  | 22041     | RECORD FRAME 7" SINGLE SIZE         | 48       | 12/1/09 7:45 | 2.1   | 13085       | United Kingdom |
 ### Analysis:
