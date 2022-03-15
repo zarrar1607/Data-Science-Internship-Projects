@@ -15,10 +15,19 @@
 ![image](https://user-images.githubusercontent.com/61513813/158432911-e7711000-b964-4735-a036-64e7dd7b67cd.png)
 ![image](https://user-images.githubusercontent.com/61513813/158432932-b7fe5f8a-e9f6-43fb-ae7e-8b770f27fbb8.png)
 
-## x. Name [[Link](#)]
-### Filename: [Name.ipyb](#)
-### Data Set Preview: [[Link](#)]
+## 2. Parkinson’s Disease Prediction – XG Boost Classifier [[Link](https://github.com/zarrar1607/Data-Science-Internship-Projects/tree/main/Parkinson’s%20Disease%20Prediction%20–%20XG%20Boost%20Classifier)]
+### Filename: [Parkinsons_disease.ipyb](https://github.com/zarrar1607/Data-Science-Internship-Projects/blob/main/Parkinson%E2%80%99s%20Disease%20Prediction%20%E2%80%93%20XG%20Boost%20Classifier/Parkinsons_disease.ipynb)
+### Data Set Preview: [[Link](https://github.com/zarrar1607/Data-Science-Internship-Projects/blob/main/Parkinson%E2%80%99s%20Disease%20Prediction%20%E2%80%93%20XG%20Boost%20Classifier/parkinsons.data)]
+| name           | MDVP:Fo(Hz) | MDVP:Fhi(Hz) | MDVP:Flo(Hz) | MDVP:Jitter(%) | MDVP:Jitter(Abs) | MDVP:RAP | MDVP:PPQ | Jitter:DDP | MDVP:Shimmer | MDVP:Shimmer(dB) | Shimmer:APQ3 | Shimmer:APQ5 | MDVP:APQ | Shimmer:DDA | NHR     | HNR    | status | RPDE     | DFA      | spread1   | spread2  | D2       | PPE      |
+|----------------|-------------|--------------|--------------|----------------|------------------|----------|----------|------------|--------------|------------------|--------------|--------------|----------|-------------|---------|--------|--------|----------|----------|-----------|----------|----------|----------|
+| phon_R01_S01_1 | 119.992     | 157.302      | 74.997       | 0.00784        | 0.00007          | 0.0037   | 0.00554  | 0.01109    | 0.04374      | 0.426            | 0.02182      | 0.0313       | 0.02971  | 0.06545     | 0.02211 | 21.033 | 1      | 0.414783 | 0.815285 | -4.813031 | 0.266482 | 2.301442 | 0.284654 |
+| phon_R01_S01_2 | 122.4       | 148.65       | 113.819      | 0.00968        | 0.00008          | 0.00465  | 0.00696  | 0.01394    | 0.06134      | 0.626            | 0.03134      | 0.04518      | 0.04368  | 0.09403     | 0.01929 | 19.085 | 1      | 0.458359 | 0.819521 | -4.075192 | 0.33559  | 2.486855 | 0.368674 |
 ### Analysis:
+![image](https://user-images.githubusercontent.com/61513813/158435154-5609d075-ec7d-4d46-83c5-bc541a43ff3a.png)
+![image](https://user-images.githubusercontent.com/61513813/158435176-533dbae0-abf0-46a2-a837-4af722711047.png)
+![image](https://user-images.githubusercontent.com/61513813/158435191-d2bff5a4-df48-4160-9370-d210b9acb370.png)
+![image](https://user-images.githubusercontent.com/61513813/158435218-73338149-c539-40a9-b8bf-0580bcd2ca59.png)
+![image](https://user-images.githubusercontent.com/61513813/158435229-16bdd173-44ee-4e4c-8dc1-ef7a5175c8ac.png)
 
 ## x. Name [[Link](#)]
 ### Filename: [Name.ipyb](#)
