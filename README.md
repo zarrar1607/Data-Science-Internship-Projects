@@ -82,17 +82,67 @@
 ![image](https://user-images.githubusercontent.com/61513813/158439992-3f420c51-68b9-4771-bed9-418b17e70af0.png)
 ![image](https://user-images.githubusercontent.com/61513813/158440147-bb1a53d5-d4a4-455a-8e5b-edfa25632a28.png)
 
-
 <!-------------------------------------------------------------------------------------------------------------->
 
-## x. Name [[Link](#)]
-### Filename: [Name.ipynb](#)
-### Data Set Preview: [[Link](#)]
+## 5. Name [[Spam Classification Using NLP](https://github.com/zarrar1607/Data-Science-Internship-Projects/tree/main/Spam%20Classification%20Using%20NLP)]
+### Filename: [Spam Detection.ipynb](https://github.com/zarrar1607/Data-Science-Internship-Projects/blob/main/Spam%20Classification%20Using%20NLP/Spam%20Detection.ipynb)
+### Data Set Preview: [[Link](https://github.com/zarrar1607/Data-Science-Internship-Projects/blob/main/Spam%20Classification%20Using%20NLP/spam.csv)]
+| v1   | v2                                                                                                                                                          |
+|------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ham  | Go until jurong point, crazy.. Available only in bugis n great world la e buffet... Cine there got amore wat...                                             |
+| ham  | Ok lar... Joking wif u oni...                                                                                                                               |
+| spam | Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's |
 ### Analysis:
+- K Nearest Neighbors Accuracy: 94.18521177315147
+- Decision Tree Accuracy: 97.20028715003589
+- Random Forest Accuracy: 98.34888729361091
+- Logistic Regression Accuracy: 98.56424982053123
 
 <!-------------------------------------------------------------------------------------------------------------->
 
-## 9. Name [[Customer Segmentation Using K-Means Clustering](https://github.com/zarrar1607/Data-Science-Internship-Projects/tree/main/Customer%20Segmentation%20Using%20K-Means%20Clustering)]
+## 6. Hand-Written Digit Recognition Using CNN [[Link](https://github.com/zarrar1607/Data-Science-Internship-Projects/tree/main/Hand-Written%20Digit%20Recognition%20Using%20CNN)]
+### Filename: [CNN_Digits.ipynb](https://github.com/zarrar1607/Data-Science-Internship-Projects/blob/main/Hand-Written%20Digit%20Recognition%20Using%20CNN/CNN_Digits.ipynb)
+### Data Set Preview: [[Link](#)]
+![image](https://user-images.githubusercontent.com/61513813/158441485-55673026-78d2-455d-a02b-2863fa61e4f0.png)
+![image](https://user-images.githubusercontent.com/61513813/158441530-98f236bb-cc75-422d-8372-e04aedf060e9.png)
+### Analysis:
+Test loss: 0.7877634763717651
+Test accuracy: 0.8399999737739563
+<!-------------------------------------------------------------------------------------------------------------->
+
+## 7. Churn Prediction Using Tensorflow [[Link](https://github.com/zarrar1607/Data-Science-Internship-Projects/tree/main/Churn%20Prediction%20Using%20Tensorflow)]
+### Filename: [Churn Prediction.ipynb](https://github.com/zarrar1607/Data-Science-Internship-Projects/blob/main/Churn%20Prediction%20Using%20Tensorflow/Churn%20Prediction.ipynb)
+### Data Set Preview: [[Link](https://github.com/zarrar1607/Data-Science-Internship-Projects/blob/main/Churn%20Prediction%20Using%20Tensorflow/Churn_Modelling.csv)]
+| RowNumber | CustomerId | Surname  | CreditScore | Geography | Gender | Age | Tenure | Balance  | NumOfProducts | HasCrCard | IsActiveMember | EstimatedSalary | Exited |
+|-----------|------------|----------|-------------|-----------|--------|-----|--------|----------|---------------|-----------|----------------|-----------------|--------|
+| 1         | 15634602   | Hargrave | 619         | France    | Female | 42  | 2      | 0        | 1             | 1         | 1              | 101348.88       | 1      |
+| 2         | 15647311   | Hill     | 608         | Spain     | Female | 41  | 1      | 83807.86 | 1             | 0         | 1              | 112542.58       | 0      |
+### Analysis:
+Model: "sequential_1"
+
+| Layer (type)           |      Output Shape      |        Param# | 
+|------------------------|------------------------|---------------|
+| dense_3 (Dense)        |     (None, 6)          |       72      |  
+|                        |                        |               |  
+| dense_4 (Dense)        |     (None, 6)          |       42      |  
+|                        |                        |               |  
+| dense_5 (Dense)        |     (None, 1)          |       7       | 
+|                        |                        |               | 
+|                        |                        |               | 
+|Total params: 121                                                |
+|Trainable params: 121                                            |
+|Non-trainable params: 0                                          |
+
+Epoch -> loss: 0.3331 - accuracy: 0.8668
+
+Confusion Matrix:
+|1471 |98   |
+|-----|-----|
+|211  |220  |
+
+<!-------------------------------------------------------------------------------------------------------------->
+
+## 8. Name [[Customer Segmentation Using K-Means Clustering](https://github.com/zarrar1607/Data-Science-Internship-Projects/tree/main/Customer%20Segmentation%20Using%20K-Means%20Clustering)]
 ### Filename: [Customer segmentation.ipynb](https://github.com/zarrar1607/Data-Science-Internship-Projects/blob/main/Customer%20Segmentation%20Using%20K-Means%20Clustering/Customer%20segmentation.ipynb)
 ### Data Set Preview: [[Link](https://www.kaggle.com/nathaniel/uci-online-retail-ii-data-set/download)]
 | Invoice | StockCode | Description                         | Quantity | InvoiceDate  | Price | Customer ID | Country        |
@@ -101,4 +151,3 @@
 | 489434  | 79323P    | PINK CHERRY LIGHTS                  | 12       | 12/1/09 7:45 | 6.75  | 13085       | United Kingdom |
 | 489434  | 79323W    |  WHITE CHERRY LIGHTS                | 12       | 12/1/09 7:45 | 6.75  | 13085       | United Kingdom |
 | 489434  | 22041     | RECORD FRAME 7" SINGLE SIZE         | 48       | 12/1/09 7:45 | 2.1   | 13085       | United Kingdom |
-### Analysis:
